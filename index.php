@@ -8,14 +8,14 @@
   
  </head>
  <body>
- 
+ <img src='./logo.png' width='200px' >
   <?php
 	$cmd = $_GET["o"];
 		if ($cmd == "") 
 						{
-			echo "<font color='white' >#NEVER TRY TO HACK A HACKER </br>enter '<font color='red'>mywork' </font>to see my work 
+			echo " </br><font color='white' >#NEVER TRY TO HACK A HACKER </br>enter '<font color='red'>mywork' </font>to see my work 
 			</br> enter '<font color='pink'>bilal'</font> to read more about me </font>
-			";
+";
 											}
 		elseif($cmd == "mywork") 
 						{ header("location:/work.php");
