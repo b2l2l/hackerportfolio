@@ -17,12 +17,12 @@
 			</br> enter '<font color='pink'>bilal'</font> to read more about me </font>
 ";
 											}
-		elseif($cmd == "mywork") 
+		elseif($cmd == "mywork"  || $cmd=="Mywork" || $cmd=="my work" || $cmd=="My Work" || $cmd=="My work" || $cmd=="MYWORK") 
 						{ header("location:/work.php");
 							exit();
 											}
 		
-		elseif($cmd =="bilal")
+		elseif($cmd =="bilal" || $cmd =="BILAL" || $cmd =="Bilal")
 						{ echo ' 
 						<div class="about_hacker"> 
 						 <p> Name: <b> Bilal Barzinji </b></p>
@@ -37,10 +37,10 @@
 						 
 						  '; }
 		elseif($cmd =="more")
-				{ header("location:/cv.pdf");
+				{ header("location:/cv.php");
 							exit();
 											}
-		elseif($cmd=="xx")
+		elseif($cmd=="help")
 				{ echo ' <p> Type something like "mywork or bilal"  in the white blank then press enter</p> ';
 				}
 		else {
