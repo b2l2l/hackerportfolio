@@ -22,10 +22,31 @@
 							exit();
 											}
 		
-		else
-						{ header("location:/work.php");
+		elseif($cmd =="bilal")
+						{ echo ' 
+						<div class="about_hacker"> 
+						 <p> Name: <b> Bilal Barzinji </b></p>
+						 <p> Age : <b> 17 </b></p>
+						 <p> Nationality : <b> Iraqi </b></p>
+						 <p> Address : <b> Zanko99,Erbil,IRAQ </b></p>
+						 <p> PhoneNo : <b> +964 770 851 2691 </b></p>
+						 <p> Email : <b> b@b2l2l.com </b> </p>
+						 <p> You want more ? write  <font color="red">more</font> to download my CV.</p>
+						
+						 </div>
+						 
+						  '; }
+		elseif($cmd =="more")
+				{ header("location:/cv.pdf");
 							exit();
 											}
+		elseif($cmd=="xx")
+				{ echo ' <p> Type something like "mywork or bilal"  in the white blank then press enter</p> ';
+				}
+		else {
+		echo " <p> don't Try to be smart and enter something i didn't tell you about .</p> " ;
+		     }
+											
 ?>
   </br></br></br></br></br></br></br></br></br></br></br>
 <form method="GET">
