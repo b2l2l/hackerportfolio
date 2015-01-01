@@ -1,14 +1,23 @@
 <?php ob_start(); ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
  <head>
+ 
   <title>guest@b2l2l</title>
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" title="Default" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   
  </head>
- <body>
- <img src='./logo.png' width='200px' >
+ <body><a href="./index.php">
+ <img src='./logo.png' width='200px'  > </a>
   <?php
 	$cmd = $_GET["o"];
 		if ($cmd == "") 
@@ -31,17 +40,21 @@
 						 <p> Address : <b> Zanko99,Erbil,IRAQ </b></p>
 						 <p> PhoneNo : <b> +964 770 851 2691 </b></p>
 						 <p> Email : <b> b@b2l2l.com </b> </p>
-						 <p> You want more ? write  <font color="red">more</font> to download my CV.</p>
-						
+						 <p> You want more ? write  <font color="red">more</font> to view my CV.</p>
 						 </div>
 						 
+							 		
+					
 						  '; }
 		elseif($cmd =="more")
 				{ header("location:/cv.php");
 							exit();
 											}
-		elseif($cmd=="help")
-				{ echo ' <p> Type something like "mywork or bilal"  in the white blank then press enter</p> ';
+		elseif($cmd=="skills")
+				{  
+				include 'skills.php';
+ 
+										;
 				}
 		else {
 		echo " <p> don't Try to be smart and enter something i didn't tell you about .</p> " ;
@@ -52,7 +65,6 @@
 <form method="GET">
 <font color='white' >root@b2l2l:</font> <input type="text" name="o"><br>
 </form>
-
 
 
 
