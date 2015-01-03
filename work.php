@@ -68,20 +68,20 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>website for Soma City </h3>
+                                    <h3>Hosting-Domain-SSL </h3>
 
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Soma city</div>
+                                        <span></span></div>
                                     <div>
-                                        <span>Date</span>July 2014</div>
+                                        <span>Date-opened</span>July 2013</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Skills</span>Hosting,Domain,SSL,server Management. </div>
                                     <div>
-                                        <span>Link</span>www.soma-city.com</div>
+                                        <span>Link</span>www.al-i7san.com</div>
                                 </div>
-                                <p><  يعتبر مشروع سوما ستي السكني من المشاريع المهمة في مدينة كركوك نظرا لموقعه الجغرافي المتميز في طبيعة   >.</p>
+                                <p>al-i7san a Web online based company, provides Hosting Packages , SSL for safe connections, Domain Registration & Online Support Centre,plus all the web developments Services </p>
                             </div>
                         </div>
                     </div>
@@ -148,11 +148,11 @@
                                     <div>
                                         <span>Date</span>2014-2015</div>
                                     <div>
-                                        <span>Skills</span>SEO knowledge[sitemap...etc] ,Socail media</div>
+                                        <span>Skills</span>SEO knowledge[sitemap...etc] ,Social media</div>
                                     <div>
                                         <span></span></div>
                                 </div>
-                                <p>Yes I do both Seo[Search Engine optimization] I can get you up-ranked in google,yahoo,bing </br> the Social Media promotions are 2option it's or a one time promotion or yearly full manage .</p>
+                                <p>Yes I do both Seo[Search Engine optimization] I can get you up-ranked in google,yahoo,bing </br> the Social Media promotions I make is one time promotion or yearly full manage .</p>
                             </div>
                         </div>
                     </div>

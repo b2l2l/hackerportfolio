@@ -2,40 +2,70 @@
 	CLI 2.0 Stylesheet
 	Hacker portfilo 1.0 stylesheet for b2l2l.com
 	skills bar for codepen 
-	
+	code cleaned by Dirtymarkup 
 */
+html,body {
+        height:99%
+}
 
-html, body { 
-height:99%;}
-body { 
-background-color:#000;
-font-family:"Courier New",Courier,monospace;
-margin:0 15px;
-overflow:hidden;
-padding:0; }
-p, div { 
-color:#FFF;
-font-family:"Courier New",Courier,monospace;
-font-size:1em; }
-h1, h2 { 
-background-color:#FFF;
-color:#000; }
-h3 { 
-color:#FFF;
-text-decoration:underline;
-margin:5px 0; }
-/*  links code and footer */ 
-a, a:visited, .linky { color:#FFF; cursor:pointer; font-weight:bold; text-decoration:none; }
-a:hover, span.linky:hover, td.linky:hover { background-color:#FFF; color:#000; } /*you poor IE-using bastards*/
-form#searchform input[type=text] { background-color:#000; border:1px solid #FFF; color:#FFF; font-family:"Courier New",Courier,monospace; width:100px; }
+body {
+        background-color:#000;
+        font-family:"Courier New",Courier,monospace;
+        margin:0 15px;
+        overflow:hidden;
+        padding:0
+}
+
+p,div {
+        color:#FFF;
+        font-family:"Courier New",Courier,monospace;
+        font-size:1em
+}
+
+h1,h2 {
+        background-color:#FFF;
+        color:#000
+}
+
+h3 {
+        color:#FFF;
+        text-decoration:underline;
+        margin:5px 0
+}
+
+/*  links code and footer */
+a,a:visited,.linky {
+        color:#FFF;
+        cursor:pointer;
+        font-weight:700;
+        text-decoration:none
+}
+
+a:hover,span.linky:hover,td.linky:hover {
+        background-color:#FFF;
+        color:#000
+}
+
+form#searchform input[type=text] {
+        background-color:#000;
+        border:1px solid #FFF;
+        color:#FFF;
+        font-family:"Courier New",Courier,monospace;
+        width:100px
+}
 
 div#credit {
-bottom:0;
-color:#FFF;
-font-size:small;
-opacity:.25; }
+        bottom:0;
+        color:#FFF;
+        font-size:small;
+        opacity:.25
+}
+
 div#credit:hover {
-opacity:.75; }
+        opacity:.75
+}
+
 div#credit a {
-font-size:small;
-text-decoration:underline; }
+        font-size:small;
+        text-decoration:underline
+}
